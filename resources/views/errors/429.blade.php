@@ -1,0 +1,2 @@
+@extends('nuevo.layout')
+@section('content')<section class="card"><span class="eyebrow">DANGU · 429</span><h1>Demasiados intentos. Espera un minuto e inténtalo de nuevo.</h1><a href="/inicio" class="primary">Volver al inicio</a></section>@endsection

@@ -1,0 +1,2 @@
+@extends('nuevo.layout')
+@section('content')<section class="card"><span class="eyebrow">DANGU · 419</span><h1>La sesión del formulario venció. Vuelve a abrir la página.</h1><a href="/inicio" class="primary">Volver al inicio</a></section>@endsection

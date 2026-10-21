@@ -1,0 +1,2 @@
+@extends('nuevo.layout')
+@section('content')<section class="card"><span class="eyebrow">DANGU · 404</span><h1>No encontramos la página solicitada.</h1><a href="/inicio" class="primary">Volver al inicio</a></section>@endsection

@@ -1,0 +1,2 @@
+@extends('nuevo.layout')
+@section('content')<section class="card"><span class="eyebrow">DANGU · 422</span><h1>No se pudo completar la operación con esos datos.</h1><a href="/inicio" class="primary">Volver al inicio</a></section>@endsection

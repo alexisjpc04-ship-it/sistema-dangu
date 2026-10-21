@@ -1,0 +1,2 @@
+@extends('nuevo.layout')
+@section('content')<section class="card"><span class="eyebrow">DANGU · 403</span><h1>No tienes permiso para acceder a esta sección.</h1><a href="/inicio" class="primary">Volver al inicio</a></section>@endsection
