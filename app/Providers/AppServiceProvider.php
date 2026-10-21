@@ -24,6 +24,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
+        if (config('app.env') === 'production' || request()->server('HTTP_X_FORWARDED_PROTO') === 'https') {
+            \Illuminate\Support\Facades\URL::forceScheme('https');
+        }
         $proxies = array_filter(array_map('trim', explode(',', config('dangu.trusted_proxies', ''))));
         TrustProxies::at(array_values($proxies));
         RateLimiter::for('acceso', function (Request $r) {
